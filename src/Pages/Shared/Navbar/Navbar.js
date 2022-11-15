@@ -85,7 +85,7 @@ const Navbar = ({ children }) => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 text-white rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow  bg-base-100 rounded-box w-52"
             >
               {menuItems}
             </ul>
@@ -94,7 +94,7 @@ const Navbar = ({ children }) => {
             Doctors Portal
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex text-white">
+        <div className="navbar-center hidden lg:flex text-white ">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
 
